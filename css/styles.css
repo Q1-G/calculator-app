@@ -1,0 +1,54 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.casingContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.casing {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(69, 104, 40);
+    width: 500px;
+    height: 500px;
+    border-radius: 3%;
+}
+
+.alignmentContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.screen {
+    background-color: rgb(231, 105, 2);
+    border-color: rgb(194, 132, 51);
+    border-style: solid;
+    border-radius: 3%;
+    border-width: 7px;
+    width:400px;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.buttonsContainer {
+    margin: 30px 30px 30px 30px;
+    background-color: rgb(194, 132, 51);
+
+}
+
+.numberButtons {
+    background-color: rgb(194, 132, 51);
+    border-radius: 3%;
+    border-color: none;
+    font-size: large;
+    /* padding: 20px 20px 20px 20px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
