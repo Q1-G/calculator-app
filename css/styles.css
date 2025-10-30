@@ -11,17 +11,15 @@
 }
 
 .casing {
-    display: flex;
-    justify-content: center;
     background-color: rgb(69, 104, 40);
     width: 500px;
-    height: 500px;
+    height: 590px;
     border-radius: 3%;
 }
 
 .alignmentContainer {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
 .screen {
@@ -31,22 +29,26 @@
     border-radius: 3%;
     border-width: 7px;
     width:400px;
-    height: 80px;
-    margin-top: 30px;
+    height: 70px;
+    margin-top: 40px;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .buttonsContainer {
-    margin: 30px 30px 30px 30px;
-    background-color: rgb(194, 132, 51);
-
+    margin: 30px 42px 30px 42px;
 }
 
-.numberButtons {
+.buttons {
     background-color: rgb(194, 132, 51);
-    border-radius: 3%;
-    border-color: none;
+    border-radius: 10%;
+    border-color: black;
     font-size: large;
-    /* padding: 20px 20px 20px 20px; */
+    width: 90px;
+    height:70px;
+    margin: 5px 5px 5px 5px;
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
