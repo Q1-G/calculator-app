@@ -43,7 +43,7 @@
     margin: 30px 42px 30px 42px;
 }
 
-.buttonsContainer button {
+button {
     background-color: rgb(194, 132, 51);
     border-radius: 10%;
     border-color: black;
@@ -53,6 +53,45 @@
     margin: 5px 5px 5px 5px;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.backspace {
+    background-color: rgb(122, 63, 11);
+    color: white;
+}
+
+.power {
+    background-color: black;
+    color: rgb(231, 105, 2)
+}
+
+.percent {
+    background-color: rgb(122, 63, 11);
+    color: white;
+}
+
+.divide {
+    background-color: rgb(122, 63, 11);
+    color: white;
+}
+
+.multiply {
+    background-color: rgb(122, 63, 11);
+    color: white;
+}
+
+.subtract {
+    background-color: rgb(122, 63, 11);
+    color: white;
+}
+
+.add {
+    background-color: rgb(122, 63, 11);
+    color: white;
+}
+
+.equals {
+    background-color: rgb(231, 105, 2);
 }
 
 
