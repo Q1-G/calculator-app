@@ -133,10 +133,10 @@ point.addEventListener('click',() => {
 
 change.addEventListener('click',() => {
     let currentValue = screen.textContent;
-    if (currentValue >= 0 || currentValue < 0) { 
+
+    if (currentValue >= 0) { 
         screen.textContent = -currentValue;
     } else if (currentValue < 0) {
-        let positiveNumber = Math.abs(currentValue);
-        screen.textContent = positiveNumber;
+        screen.textContent = Math.abs(currentValue);
     }
 });
