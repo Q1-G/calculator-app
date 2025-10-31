@@ -15,6 +15,9 @@
     width: 500px;
     height: 590px;
     border-radius: 3%;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .alignmentContainer {
@@ -40,7 +43,7 @@
     margin: 30px 42px 30px 42px;
 }
 
-.buttons {
+.buttonsContainer button {
     background-color: rgb(194, 132, 51);
     border-radius: 10%;
     border-color: black;
@@ -51,6 +54,9 @@
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+
 
 
 
